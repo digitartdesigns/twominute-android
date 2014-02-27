@@ -13,7 +13,6 @@
     <feature name="http://api.phonegap.com/1.0/device" />
 	<preference name="splash-screen-duration" value="5000" />
     <preference name="orientation" value="default" />
-    <preference name="android-minSdkVersion" value="13" />
     <preference name="fullscreen" value="false" />
 	<icon src="images/icon-72.png" gap:platform="android" gap:density="hdpi" gap:role="default" />
 	<gap:splash src="images/screen-portrait.png" gap:platform="android" gap:density="xhdpi" />
