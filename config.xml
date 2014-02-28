@@ -11,7 +11,10 @@
         Digit Art Designs Ltd. Team
     </author>
     <feature name="http://api.phonegap.com/1.0/device" />
-   <feature name="App">
+	<feature name="Notification">
+       <param name="android-package" value="org.apache.cordova.Notification" />
+    </feature>
+	<feature name="App">
         <param name="android-package" value="org.apache.cordova.App" />
     </feature>
     <feature name="Vibration">
@@ -20,7 +23,7 @@
     <feature name="Notification">
         <param name="android-package" value="org.apache.cordova.dialogs.Notification" />
     </feature>
-	<gap:plugin name="org.apache.cordova.vibration" />
+	<gap:plugin name="org.apache.cordova.Vibration" />
 	<preference name="phonegap-version" value="2.9.0" />
 	<preference name="splash-screen-duration" value="5000" />
     <preference name="orientation" value="default" />
