@@ -2,7 +2,7 @@
 <widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id = "com.craving.craving"
-        version = "2.2">
+        version = "1.1">
     <name>Craving Eliminator</name>
     <description>
         Web App by Digit Art Designs
@@ -11,6 +11,10 @@
         Digit Art Designs Ltd. Team
     </author>
     <feature name="http://api.phonegap.com/1.0/device" />
+	<feature name="Notification">
+       <param name="android-package" value="org.apache.cordova.Notification" />
+    </feature>
+	<plugin name="Notification" value="org.apache.cordova.Notification"/>
 	<preference name="splash-screen-duration" value="5000" />
     <preference name="orientation" value="default" />
     <preference name="fullscreen" value="false" />
