@@ -13,10 +13,7 @@
 	<feature name="http://api.phonegap.com/1.0/device" />
 	<preference name="phonegap-version" value="2.9.0" />
 	<gap:plugin name="org.apache.cordova.vibration" />
-	<plugin name="Notification" value="org.apache.cordova.Notification"/>
-	<feature name="Vibration">
-                <param name="android-package" value="org.apache.cordova.vibration.Vibration"/>
-            </feature>
+        <plugin name="Notification" value="org.apache.cordova.Notification"/>
 	<preference name="permissions" value="none"/>
 	<preference name="splash-screen-duration" value="5000" />
     <preference name="orientation" value="default" />
