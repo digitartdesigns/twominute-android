@@ -11,8 +11,7 @@
         Digit Art Designs Ltd. Team
     </author>
     <feature name="http://api.phonegap.com/1.0/device" />
-	<plugin name="Notification" value="org.apache.cordova.Notification"/>
-	<preference name="phonegap-version" value="2.9.0" />
+	<preference name="phonegap-version" value="3.1.0" />
 	<preference name="splash-screen-duration" value="5000" />
     <preference name="orientation" value="default" />
     <preference name="fullscreen" value="false" />
