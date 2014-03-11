@@ -10,11 +10,8 @@
     <author href="http://digitartdesigns.com" email="support@digitartdesigns.com">
         Digit Art Designs Ltd. Team
     </author>
-    <feature name="http://api.phonegap.com/1.0/device" />
-	<feature name="Notification">
-		<param name="android-package" value="org.apache.cordova.dialogs.Notification" />
-	</feature>
 	<plugin name="Notification" value="org.apache.cordova.Notification"/>
+	<uses-permission android:name="android.permission.VIBRATE" />
 	<preference name="phonegap-version" value="2.9.0" />
 	<preference name="splash-screen-duration" value="5000" />
     <preference name="orientation" value="default" />
