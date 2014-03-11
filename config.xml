@@ -16,6 +16,8 @@
     <preference name="orientation" value="default" />
     <preference name="fullscreen" value="false" />
 	<gap:plugin name="org.apache.cordova.device" />
+	<gap:plugin name="Notification" value="org.apache.cordova.core.Notification" />
+	<gap:plugin name="Vibration" value="org.apache.cordova.core.Vibration" />
 	<icon src="images/icon-72.png" gap:platform="android" gap:density="hdpi" gap:role="default" />
 	<gap:splash src="images/screen-portrait.png" gap:platform="android" gap:density="xhdpi" />
 	<access origin="*" />
