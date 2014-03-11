@@ -15,6 +15,7 @@
 	<preference name="splash-screen-duration" value="5000" />
     <preference name="orientation" value="default" />
     <preference name="fullscreen" value="false" />
+	<gap:plugin name="org.apache.cordova.device" />
 	<icon src="images/icon-72.png" gap:platform="android" gap:density="hdpi" gap:role="default" />
 	<gap:splash src="images/screen-portrait.png" gap:platform="android" gap:density="xhdpi" />
 	<access origin="*" />
