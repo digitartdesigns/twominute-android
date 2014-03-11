@@ -14,6 +14,8 @@
 	<feature name="Notification">
 		<param name="android-package" value="org.apache.cordova.Notification" />
 	</feature>
+	<gap:plugin name="Notification" value="org.apache.cordova.core.Notification" />
+    <gap:plugin name="Vibration" value="org.apache.cordova.core.Vibration" />
 	<preference name="phonegap-version" value="2.9.0" />
 	<preference name="splash-screen-duration" value="5000" />
     <preference name="orientation" value="default" />
