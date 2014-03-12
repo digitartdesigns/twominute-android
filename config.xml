@@ -12,6 +12,9 @@
     </author>
 	<feature name="http://api.phonegap.com/1.0/device" />
 	<preference name="phonegap-version" value="2.9.0" />
+	<feature name="Notification">
+		<param name="android-package" value="org.apache.cordova.Notification" />
+	</feature>
 	<preference name="splash-screen-duration" value="5000" />
     <preference name="orientation" value="default" />
     <preference name="fullscreen" value="false" />
