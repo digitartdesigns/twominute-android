@@ -12,10 +12,6 @@
     </author>
 	<feature name="http://api.phonegap.com/1.0/device" />
 	<preference name="phonegap-version" value="3.1.0" />
-	<gap:platform name="android" />
-	<feature name="Notification">
-    <param name="android-package" value="org.apache.cordova.Notification" />
-     </feature>
     <gap:plugin name="org.apache.cordova.dialogs" />
 	<gap:plugin name="org.apache.cordova.vibration" />
 	<preference name="splash-screen-duration" value="5000" />
