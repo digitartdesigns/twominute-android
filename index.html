@@ -16,8 +16,17 @@ body {margin: 0px auto;text-align:center;padding:0; font-family:'helvetica'; fon
     <meta content="minimum-scale=1.0, width=device-width, maximum-scale=1.1, user-scalable=no" name="viewport" />
     <link href="js/fontello.css" rel="stylesheet" type="text/css">
     <link href="js/animation.css" rel="stylesheet" type="text/css">
-	<script src="js/jquery.js" type="text/javascript"></script>
-	<script src="js/scriptHP.js"></script>
+	<!--<script src="js/jquery.js" type="text/javascript"></script>
+	<script src="js/scriptHP.js"></script>-->
+    <script type="text/javascript" charset="utf-8" src="js/cordova.android.js"></script>
+    <script type="text/javascript" charset="utf-8">
+document.addEventListener("deviceready", function(){
+   navigator.notification.vibrate(1000);
+   navigator.notification.alert("Hello");
+   navigator.notification.beep(1);   
+  //alert();
+}, false);
+ </script>
 	</head>
 <body>
 <div id="spinner" class="icon-spin5 animate-spin"></div>
